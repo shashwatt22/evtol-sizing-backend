@@ -1,6 +1,9 @@
 # eVTOL Rotor Sizing Computational API Backend
 
-A modular Django REST backend engineered to execute complex multi-configuration aerodynamic sizing workflows for electric Vertical Takeoff and Landing (eVTOL) aircraft. This API decouples user inputs from the core propulsion physics models, processing structural calculations for 4 distinct aircraft configurations.
+[![Live Frontend Demo](https://img.shields.io/badge/Live_Demo-Vercel-blue?style=for-the-badge&logo=vercel)](https://sizing-final.vercel.app/)
+[![Backend Repository](https://img.shields.io/badge/Codebase-GitHub-green?style=for-the-badge&logo=github)](https://github.com/shashwatt22/evtol-sizing-backend)
+
+A modular Django REST backend engineered to execute complex multi-configuration aerodynamic sizing workflows...
 
 ## 🛠️ API Routing Architecture
 The central endpoint (`/api/size/`) acts as a dynamic orchestration layer, parsing request payloads and evaluating structural constraints natively:
